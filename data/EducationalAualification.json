@@ -1,0 +1,45 @@
+[
+    { "label": "Cardiologist", "value": "Cardiologist" },
+    {
+        "label":"MBBS - Bachelor of Medicine and Bachelor of Surgery","value":"MBBS - Bachelor of Medicine and Bachelor of Surgery"
+    },
+    {
+        "label":"BDS - Bachelor of Dental Sciences","value":"BDS - Bachelor of Dental Sciences"
+    },
+    {
+        "label":"BHMS - Bachelor of Homeopathic Medicine & Surgery","value":"BHMS - Bachelor of Homeopathic Medicine & Surgery"
+    },
+    {
+        "label":"MBAMS - Bachelor of Ayurvedic Medicine and SurgeryBBCh","value":"MBAMS - Bachelor of Ayurvedic Medicine and SurgeryBBCh"
+    },
+    {
+        "label":"DHMS - Diploma in Homeopathic Medicine & Surgery","value":"DHMS - Diploma in Homeopathic Medicine & Surgery"
+    },
+    {
+        "label":"BUMS - Bachelor in Unani Medicine","value":"BUMS - Bachelor in Unani Medicine"
+    },
+    {
+        "label":"B.V.Sc & AH - Bachelor of Veterinary Sciences & Animal Husbandry","value":"B.V.Sc & AH - Bachelor of Veterinary Sciences & Animal Husbandry"
+    },
+    {
+        "label":"B.Pharm - Bachelor of Pharmacy","value":"B.Pharm - Bachelor of Pharmacy"
+    },
+    {
+        "label":"D. Pharma - Diploma of Pharmacy","value":"D. Pharma - Diploma of Pharmacy"
+    },
+    {
+        "label":"BOT - Bachelor of Occupational Therapy","value":"BOT - Bachelor of Occupational Therapy"
+    },
+    {
+        "label":"BMLT - Bachelor of Medical Laboratory Technology","value":"BMLT - Bachelor of Medical Laboratory Technology"
+    },
+    {
+        "label":"BPT - Bachelor of Physiotherapy","value":"BPT - Bachelor of Physiotherapy"
+    },
+    {
+        "label":"B.Sc. Nursing - Bachelor of Science in Nursing","value":"B.Sc. Nursing - Bachelor of Science in Nursing"
+    },
+    {
+        "label":"BNYS - Bachelor of Naturopathy and Yogic Sciencesy","value":"BNYS - Bachelor of Naturopathy and Yogic Sciencesy"
+    }
+]

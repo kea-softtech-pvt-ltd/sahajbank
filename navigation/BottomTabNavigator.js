@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import TabBarIcon from '../components/TabBarIcon';
+import DrawerIcon from '../components/DrawerIcon';
 import DashoboardScreen from '../screens/DashboardScreen';
 import ServicesScreen from '../screens/ServicesScreen';
 
@@ -21,6 +22,7 @@ export default function BottomTabNavigator({ navigation, route }) {
         options={{
           title: 'Dashboard',
           tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-notifications" />,
+         // headerLeft: ({ focused }) => <DrawerIcon focused={focused} name="md-menu-outline" />,
         }}
       />
       <BottomTab.Screen
@@ -28,6 +30,14 @@ export default function BottomTabNavigator({ navigation, route }) {
         component={ServicesScreen}
         options={{
           title: 'Services',
+          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-settings" />,
+        }}
+      />
+      <BottomTab.Screen
+        name="NewService"
+        component={ServicesScreen}
+        options={{
+          title: '',
           tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-settings" />,
         }}
       />
@@ -43,5 +53,7 @@ function getHeaderTitle(route) {
       return 'Dashboard';
     case 'Services':
       return 'List of services';
+    case 'NewService':
+    return 'New Services Updared';
   }
 }

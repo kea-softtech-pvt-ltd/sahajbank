@@ -1,0 +1,1 @@
+export default Days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
